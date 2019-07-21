@@ -1,0 +1,90 @@
+body {
+    background-color: white;
+    font: normal 18px Arial, helvetica;
+    line-height: 1.6em;
+}
+
+#mainheader {
+	background-image: url(../static/images/speed.jpg) ;
+    background-color: gray;
+    background-repeat: no-repeat;
+margin-bottom: 1px;
+    color: blue;
+   padding-top: 30px;
+   padding-bottom: 20px;
+}
+header h1{
+	color: black;
+	text-decoration: underline;
+	font-style:bold;
+	font-style:italic;
+	word-spacing: 0.3px;
+	padding-left: 250px;
+	padding-top: 25px;
+}
+#navbar{
+	background-color: rgba(26,24,24,0.788);
+	padding-top: 1px;
+padding-bottom: 1px;
+}
+
+#navbar a{
+	color: #fff;
+	margin-right: 30px;
+	margin-bottom: 2px;
+}
+
+nav li{
+    text-decoration-line: none;
+	list-style: none;
+    display: inline;
+}
+a{
+ 	text-decoration-line: none;
+ 	color: blue;
+ }
+ .container{
+	width: 50%;
+	margin: auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	/*overflow: hidden;*/
+	background-color: gray;
+	overflow:none;
+	border: 2px solid black;
+
+}
+.image{
+	border: 2px solid black;
+	margin-left: 200px;
+	margin-right: 212px;
+	margin-bottom: 10px;
+    
+}
+img{
+
+}
+.time{
+	padding-left: 150px;
+}
+.speed{
+	padding-left:138px ;
+}
+ #mainfooter{
+ 	background-color:black;
+ 	color: white;
+ 	text-align: center;
+ 	font-style: italic;
+ 	/*padding:40px;*/
+ 	margin-top: 60px;
+ }
+ footer p{
+ 	padding-top: 40px;
+ }
+
+  @media(max-width: 600px){
+ 	#main{
+ 		width: 100;
+ 		float: none;
+ 	}
+ }
