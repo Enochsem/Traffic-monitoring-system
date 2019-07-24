@@ -24,3 +24,48 @@ How are you going to support your team mates?
 What might you need to research?
 
 What other help might you need?
+
+
+
+
+
+
+PROJECT-KICKOFFS
+
+1.What are you going to make?
+Traffic-Speed Monitoring System
+
+2.What problem does this solve?
+To check overspeeding or monitoring the speed of cars which  will then lead to the decrease the rate of accidents.
+
+3.Who are you making it for?
+For the law enforcement agencies
+
+4.What technologies / programming languages are you going to use?
+Technologies - LEDs, sensors and camera.
+Programming language - Python
+
+Your planning
+5.How are you going to divide up the work?
+The work is divided into four:
+	-The front-end programming
+	-The back-end programming
+	-Programming of the sensors
+	-Programming of the camera
+	-Documentation
+
+6.How are you going to plan your time?
+Morning (9:00am-12:00pm)- Individual work
+Afternoon (1:00pm-4:00pm)- Combine the work
+
+7.How are you going to keep track of your progress?
+The use of Trello and daily meetings.
+
+8.How are you going to support your team mates?
+Support sessions will be done after the morning session
+
+9.What might you need to research?
+We will research about the sensors, Picam and the SQL lite database and postgre sql.
+
+10.What other help might you need?
+Assistance of the project manager for corrections during our work.

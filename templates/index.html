@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../static/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <header id="mainheader">
+        <h1> Monitoring System</h1>
+    </header>
+
+    <nav id="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="{{url_for('.login')}}">Log out</a></li>
+        </ul>
+    </nav>
+    <section id=container>
+        <div class=image>
+            <img src="../static/images/car1.jpg" alt="a car" width="250px">
+        </div>
+
+        <div class="time">
+            <label for="time">Time :</label>
+            <input type="time" name="time" placeholder="second">
+            <input type="date" name="time" placeholder="DD/MM/YY">
+        </div>
+
+
+        <div class="speed">
+            <label for="speed">Speed :
+                <input type="kilometers" name="speed" placeholder="kilometers per second">
+            </label>
+        </div>
+        <!-- <div>
+            <label for="location">Location :</label>
+            <input type="text" name="location" placeholder="location">
+        </div> -->
+    </section>
+
+    <br>
+
+    <div class="container">
+        <table class="table table-dark table-hover">
+            <thead>
+                <tr>
+                    <th>image</th>
+                    <th>time_stamp</th>
+                    <th>speed</th>
+                    <th>camera_id</th>
+                </tr>
+            </thead>
+            <tbody>
+        {%for row in rows%}
+    <tr>
+      <th scope="row">{{ row["data_id"] }}</th>
+      <td>{{ row["image"] }}</td>
+      <td>{{row ["time_stamp"] }}</td>
+      <td>{{row["camera_id"] }}</td>
+    </tr>
+        {%endfor%}
+
+            </tbody>
+        </table>
+    </div>
+
+    <footer id="mainfooter">
+        <p>This page is directly protected by the 2019 Copyright. All Rights Reserved. </p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
